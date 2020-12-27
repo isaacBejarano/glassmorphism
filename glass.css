@@ -1,8 +1,5 @@
 :root {
 	--glass: rgb(255 249 249 / 10%);
-	/* --primary: rgb(4 210 82 / 48%); */
-	/* --glass-hue: rgb(4 210 82 /10%); */
-	/* --glass-hue: #f8046e6b; */
 	--glass-border-primary-light: rgba(255, 255, 255, 0.2);
 	--glass-border-primary-shade: rgba(127, 126, 126, 0.5);
 }
@@ -31,9 +28,13 @@
 	backdrop-filter: blur(3px);
 	-webkit-backdrop-filter: blur(3px);
 }
+.glass-touch {
+	backdrop-filter: blur(1px);
+	-webkit-backdrop-filter: blur(1px);
+}
 
 .glass-gum {
-	background-color: #f8046e6b;
+	background-color: #f8046e80;
 }
 
 .glass-mint {

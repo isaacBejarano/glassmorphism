@@ -37,6 +37,6 @@
 }
 .neumo-default:active {
 	box-shadow: inset -5px 5px 10px var(--neumo-glass-shade), inset 5px -5px 10px var(--neumo-glass-light);
-	font-size: .98rem;
+	/* font-size: .98rem; */
 }
 /* **** */
