@@ -1,0 +1,61 @@
+body {
+	background-image: url("assets/landscape_2k.jpg");
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	user-select: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+nav {
+	padding: 0.5rem;
+}
+
+ul {
+	padding: 0;
+	display: flex;
+	list-style-type: none;
+}
+
+li {
+	border-radius: 8px;
+}
+li:first-of-type {
+	border-radius: 30px;
+}
+li:first-of-type i {
+	padding: 0 2px;
+}
+
+span {
+	margin-left: 0.2rem;
+}
+
+p {
+	padding: 1rem;
+	font-size: 1.1rem;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+.radius-none {
+	border-radius: 0 !important;
+}

@@ -1,0 +1,42 @@
+:root {
+	/* --neumo: rgb(255 249 249 / 10%); */
+	/* --neumo: rgb(4 210 82 /10%); */
+	/* --neumo-glass-light: rgba(255, 255, 255, 0.2); */
+	/* --neumo-glass-shade: rgba(127, 126, 126, 0.5); */
+	--neumo-glass-light: rgb(255 255 255 / 10%);
+	--neumo-glass-shade: rgb(6 6 6 / 10%);
+}
+
+[class*="neumo-"] {
+	cursor: pointer;
+}
+
+/* sizes */
+.neumo-half {
+	padding: 0.5rem;
+	margin: 20px;
+}
+
+.neumo-1 {
+	padding: 1rem;
+	margin: 20px;
+}
+
+/* color */
+.neumo-glass-flat {
+	box-shadow: -5px 5px 10px var(--neumo-glass-shade), 5px -5px 10px var(--neumo-glass-light);
+}
+
+.neumo-glass-inset {
+	box-shadow: inset -5px 5px 10px var(--neumo-glass-shade), inset 5px -5px 10px var(--neumo-glass-light);
+}
+
+/* default ~flat */
+.neumo-default {
+	box-shadow: -5px 5px 10px var(--neumo-glass-shade), 5px -5px 10px var(--neumo-glass-light);
+}
+.neumo-default:active {
+	box-shadow: inset -5px 5px 10px var(--neumo-glass-shade), inset 5px -5px 10px var(--neumo-glass-light);
+	font-size: .98rem;
+}
+/* **** */

@@ -1,0 +1,48 @@
+:root {
+	--glass: rgb(255 249 249 / 10%);
+	/* --primary: rgb(4 210 82 / 48%); */
+	/* --glass-hue: rgb(4 210 82 /10%); */
+	/* --glass-hue: #f8046e6b; */
+	--glass-border-primary-light: rgba(255, 255, 255, 0.2);
+	--glass-border-primary-shade: rgba(127, 126, 126, 0.5);
+}
+
+[class*="glass"] {
+	background-image: linear-gradient(217deg, transparent 5%, var(--glass) 50%, transparent 95%);
+	border: 1px solid transparent;
+	border-top-color: var(--glass-border-primary-light);
+	border-right-color: var(--glass-border-primary-light);
+	border-bottom-color: var(--glass-border-primary-shade);
+	border-left-color: var(--glass-border-primary-shade);
+	border-radius: 8px;
+	/* */
+	
+}
+
+.glass-far {
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+}
+.glass-mid {
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+.glass-close {
+	backdrop-filter: blur(3px);
+	-webkit-backdrop-filter: blur(3px);
+}
+
+.glass-gum {
+	background-color: #f8046e6b;
+}
+
+.glass-mint {
+	color: #ceffeca3;
+	background-color: #00fc9a3b;
+}
+
+.glass-contrast {
+	color: black;
+	text-shadow: 1px -2px 1px #8e8d8d;
+	font-weight: lighter;
+}
